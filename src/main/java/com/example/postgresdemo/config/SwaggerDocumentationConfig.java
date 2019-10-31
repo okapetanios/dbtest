@@ -11,8 +11,8 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-// @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen",
-//     date = "2019-10-11T13:23:56.479615-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen",
+    date = "2019-10-11T13:23:56.479615-07:00[America/Los_Angeles]")
 @Configuration
 @EnableSwagger2
 public class SwaggerDocumentationConfig {
