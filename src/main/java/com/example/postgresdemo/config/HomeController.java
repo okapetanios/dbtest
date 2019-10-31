@@ -1,4 +1,4 @@
-package io.swagger.configuration;
+package com.example.postgresdemo.config; 
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +8,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * Home redirection to swagger api documentation 
  */
-@EnableSwagger2
 @Controller
 public class HomeController {
     @RequestMapping(method = RequestMethod.GET, value = "/")

@@ -1,4 +1,4 @@
-package io.swagger.configuration;
+package com.example.postgresdemo.config;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonTokenId;
